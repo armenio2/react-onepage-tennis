@@ -1,0 +1,38 @@
+#cardDiv{
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    background: rgb(255, 251, 0);
+    border-radius: 10%;
+    float: center;
+    margin-left: 250px;
+    margin-top: 40px;
+    z-index: 1;
+    position: relative;
+    border: solid;
+
+
+}
+
+#inputCardDiv{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    border: solid;
+    transform: rotate(45deg);
+    border-radius: 10%;
+    float: center;
+}
+
+#inputCardDiv section{
+    transform: rotate(-45deg);
+    text-align: center;
+    margin-top: 80px; 
+    font-size: 80%;
+    padding: 10px;
+}#inputCardDiv input{
+    height: 20px;
+}
+#inputCardDiv p{
+    margin: 0;
+}
