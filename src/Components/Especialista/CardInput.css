@@ -1,0 +1,78 @@
+#cardDiv{
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    background: rgb(255, 217, 0);
+    border-radius: 10%;
+    float: right;
+    margin-left: 250px;
+    margin-top: 40px;
+    z-index: 2;
+    position: absolute;
+    border: solid transparent;
+
+
+}
+#cardDiv section{
+    transform: rotate(-45deg);
+    margin-top: 25px;
+    text-align: center;
+}
+
+#cardDiv p{
+    margin: 0;
+}
+#cardDiv p:nth-child(1){
+    font-size: 80%;
+    font-weight: bold;
+    color: grey;
+}
+#cardDiv p:nth-child(2){
+    font-size: 80%;
+
+}
+#cardDiv h2{
+    font-size: 300%;
+    font-weight: bold;
+    margin: 0;
+    color:white;
+
+}
+#cardDiv p:nth-child(4){
+    font-size: 80%;
+    font-weight: bold;
+    color: grey;
+
+}
+#cardDiv p:nth-child(5){
+    font-size: 70%;
+    color:white;
+}
+
+/*/////////////////////////////////////*/
+#inputCardDiv{
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+    border: solid transparent;
+    transform: rotate(45deg);
+    border-radius: 10%;
+    float: right;
+    background: white;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#inputCardDiv section{
+    transform: rotate(-45deg);
+    text-align: center;
+    margin-top: 80px; 
+    font-size: 80%;
+    padding: 10px;
+}#inputCardDiv input{
+    height: 20px;
+}
+#inputCardDiv p{
+    margin: 0;
+}

@@ -1,0 +1,23 @@
+#tenista1{
+    width: 600px;
+    margin-top: 68px;
+
+}
+#divEspecialista div:nth-child(1){
+    text-align: left;
+    font-size: 150%;
+
+}
+#divEspecialista div:nth-child(2){
+    text-align: left;
+    color:green;
+    font-size: 300%;
+    font-weight: bold;
+}
+#divEspecialista div:nth-child(3) span{
+    text-align: left;
+    font-size: 100%;
+    margin-left: 25px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+}

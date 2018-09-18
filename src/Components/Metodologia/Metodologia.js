@@ -1,53 +1,44 @@
 import React from 'react';
-//import PageIcon from "./PageIcon";
-//import ContatComponent from "./ContatComponent";
-import CardWhatsApp from "./CardWhatsApp";
-import CardInput from "./CardInput";
+import "./Metodologia.css";
+import tenista1 from "../../Images/tenista1.png"
+
 
 class Metodologia extends React.Component {
     render() {
         return (
-
-            <div className="container-fluid">
-
+            <div id="divmedotologia" className="container-fluid">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-5">
+                        <div className="row">
+                            <div className="col">
 
-                    </div>
-                    <div className="col-9">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col">
-                                    <h4>Quando o assunto é aula de Tênis a MMoshini é</h4>
-                                    <p>ESPECIALISTA</p>
-                                    <h6>Os benefícios do tênis são inúmeros é uma
-                                        atividade de alto gasto calórico e força
-                                        muscular, a cada hora de jogo de Tênis
-                                        pode-se gastar até 500 calorias,
-                                        dependendo do ritmo de jogo e
-                                        treinamento.
-
-                                        Com tênis você obtém melhorias na
-                                        capacidade cardiovascular, nos
-                                        reflexos e até no potencial de
-                                        concentração, por aliar o ritmo do
-                                        aeróbico com os movimentos
-                                        localizados e as técnicas de jogo.
-                                    </h6>
-                                </div>
-                                <div className="col-8">
-                                    <CardInput />
-                                </div>
+                            </div>
+                            <div className="col">
+                                <p>Nossa Metodologia é</p>
+                                <p>Diferenciada</p>
+                                <p>A MMoschini preza pela, comodidade e profissionalismo.
+                                  Por este motivo levamos a prática do tênis até o cliente,
+                                  seja no condomínio, na escola, clube ou em quadras
+                                  alugadas de sua escolha. Contamos com uma equipe altamente qualificada
+                                  formada por profissionais registrados no CREF-SP e especializados em Tênis.
+                                </p>
+                                <p>Nossa metodologia de ensino é outro diferencial e está focada
+                                  nos objetivos e no respeito aos diferentes perfis e faixa etária
+                                  de nossos clientes.Nossas aulas de tênis são personalizadas
+                                  para cada aluno, respeitando os limites físicos e tornando a
+                                  prática do tênis prazerosa e divertida.
+                                </p>
                             </div>
                         </div>
+
                     </div>
-                    <div className="col">
-                        <CardWhatsApp />
+                    <div className="col-sm">
+                        <img id="tenista2" src={tenista1}></img>
+
                     </div>
+
                 </div>
-
             </div>
-
         );
     }
 }
