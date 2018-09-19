@@ -1,0 +1,29 @@
+#playStay{
+    margin-top: 25px;
+}
+#divDescription {
+    font-size: 70%;
+    color: grey;
+    text-align: center;
+}
+#divDescription section{
+    margin-top: 25px;
+
+}   
+#titlePrimeiraAula{
+    text-align: left;
+    color:white;
+    font-size: 120%;
+}
+#titlePrimeiraAula2{
+    color: orange;
+    font-size: 300%;
+}
+#titlePrimeiraAula3{
+    text-align: right;
+    color:white;
+    font-size: 120%;
+}
+#courtDiv{
+    background-image: url(../../Images/court.jpg);
+}
