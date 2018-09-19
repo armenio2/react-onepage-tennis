@@ -1,6 +1,6 @@
 import React from 'react';
 import "./CardInput.css";
-import Input from "./Input";
+import Input from "../Input";
 
 
 

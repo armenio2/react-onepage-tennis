@@ -1,0 +1,17 @@
+label{
+    margin-top: 9px;
+    font-size: 80%;
+    float: left;
+}
+#secondStyle label{
+    color:white;
+}
+#thirdStyle label{
+    color:grey;
+}
+#thirdStyle input{
+    border: green solid 1px;
+}
+#thirdStyle select{
+    border: green solid 1px;
+}

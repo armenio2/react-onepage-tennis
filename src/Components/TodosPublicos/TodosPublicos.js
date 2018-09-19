@@ -1,7 +1,7 @@
 import React from 'react';
 import "./TodosPublicos.css";
 import CardMunhaqueira from "../PrimeiraAula/CardMunhaqueira";
-
+import Button from "../Button";
 
 
 
@@ -59,7 +59,7 @@ class TodosPublicos extends React.Component {
 
                     </div>
                     <div className="col">
-                        <button >Quero Agendar</button>
+                        <Button />
                     </div>
                     <div className="col">
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./BeforFooter.css";
-import Input from "../Especialista/Input";
+import Input from "../Input";
+import Button from "../Button";
 import whatsAppIcon from "../../Images/whatsAppIcon.png"
 import telefoneIcon from "../../Images/telefoneIcon.png"
 
@@ -39,38 +40,38 @@ class BeforFooter extends React.Component {
                     <div className="col-sm">
 
                     </div>
-                    <div className="col-sm">
+                    <div className="col-8">
                         <div className="row">
                             <div className="col">
-                                <Input />
+                                <Input labelText="Nome" idInput="thirdStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Telefone" idInput="thirdStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="E-mail" idInput="thirdStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Data" idInput="thirdStyle" />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <Input />
+                                <Input labelText="Hora" idInput="thirdStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Local" idInput="thirdStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Tipo" idInput="thirdStyle" typeButton="option" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Quantidades de Aulas" idInput="thirdStyle" typeButton="option"/>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <Input />
+                                <Input labelText="Mensagem" idInput="thirdStyle" />
                             </div>
                         </div>
                         <div className="row">
@@ -78,7 +79,7 @@ class BeforFooter extends React.Component {
 
                             </div>
                             <div className="col">
-                                <button >Quero Agendar</button>
+                                <Button />
                             </div>
                             <div className="col">
 

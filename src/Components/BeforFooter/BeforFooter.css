@@ -15,6 +15,7 @@
     font-size: 140%;
     text-align: right;
     float: right;
+    margin-bottom: 60px;
 
 }
 #divContatoBeforFooter{
@@ -42,5 +43,6 @@
     font-size: 100%;
     color:green;
     font-weight: bold;
+
 
 }

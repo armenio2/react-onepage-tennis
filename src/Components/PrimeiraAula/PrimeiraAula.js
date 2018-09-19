@@ -2,7 +2,10 @@ import React from 'react';
 import "./PrimeiraAula.css";
 import playStay from "../../Images/playAndStay.png";
 import CardMunhaqueira from "./CardMunhaqueira";
-import Input from "../Especialista/Input";
+import Input from "../Input";
+import Button from "../Button";
+
+
 
 class PrimeiraAula extends React.Component {
     render() {
@@ -84,43 +87,43 @@ class PrimeiraAula extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <Input />
+                                <Input labelText="Nome" idInput="secondStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Telefone" idInput="secondStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="E-mail" idInput="secondStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Data" idInput="secondStyle" />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <Input />
+                                <Input labelText="Hora" idInput="secondStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Local" idInput="secondStyle" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Tipo" idInput="secondStyle" typeButton="option" />
                             </div>
                             <div className="col">
-                                <Input />
+                                <Input labelText="Quantidade de Aulas" idInput="secondStyle" typeButton="option" />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <Input />
+                                <Input labelText="Mensagem" idInput="secondStyle" />
                             </div>
                         </div>
-                        <div id="btnAgendar" className="row">
+                        <div className="row">
                             <div className="col">
 
                             </div>
                             <div className="col">
-                                <button >Quero Agendar</button>
+                                <Button />
                             </div>
                             <div className="col">
 
