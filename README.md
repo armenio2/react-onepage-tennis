@@ -1,8 +1,8 @@
 To test the application first please:
 
-Install Node.js
--npm install
--npm start
+Install Node.js <br/>
+-npm install<br/>
+-npm start<br/>
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
