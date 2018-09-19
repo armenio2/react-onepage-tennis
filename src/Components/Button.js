@@ -9,7 +9,7 @@ class Button extends React.Component {
     render() {
         return (
 
-            <button id="buttonComponent" type="button" class="btn btn-success">Quero Agendar</button>
+            <button id={this.props.idButton} type="button" class="btn btn-success">Quero Agendar!</button>
 
         );
     }

@@ -3,6 +3,18 @@ label{
     font-size: 80%;
     float: left;
 }
+#firstStyle label{
+    color:grey;
+    margin-top: 0;
+}
+#firstStyle input{
+    height: 30px;
+    background: rgb(219, 216, 216);
+}
+#firstStyle select{
+    height: 30px;
+    background: rgb(219, 216, 216);
+}
 #secondStyle label{
     color:white;
 }

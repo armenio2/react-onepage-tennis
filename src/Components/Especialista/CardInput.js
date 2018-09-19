@@ -1,6 +1,7 @@
 import React from 'react';
 import "./CardInput.css";
 import Input from "../Input";
+import Button from "../Button";
 
 
 
@@ -15,12 +16,22 @@ class CardInput extends React.Component {
                             <div className="col-sm">
 
                             </div>
-                            <div className="col-8">
-                                <p>AGENDE JÁ SUA</p>
-                                <p>PRIMEIRA AULA</p>
-                                <h2>100%</h2>
-                                <p>GRATUITA</p>
-                                <p>SEM COMPROMISSO</p>
+                            <div id="divTitleCard" className="col-8">
+                                <div className="row">
+                                    <span>AGENDE JÁ SUA</span>
+                                </div>
+                                <div className="row">
+                                    <span>PRIMEIRA AULA</span>
+                                </div>
+                                <div className="row">
+                                    <span>100%</span>
+                                </div>
+                                <div className="row">
+                                    <span>GRATUITA</span>
+                                </div>
+                                <div className="row">
+                                    <span>SEM COMPROMISSO</span>
+                                </div>
                             </div>
                             <div className="col-sm">
 
@@ -36,51 +47,53 @@ class CardInput extends React.Component {
                         <div className="col-8">
                             <section >
                                 <div className="row">
-                                    <div className="col-sm">
-                                        <p>Preencha os campos abaixo e entraremos</p>
-                                        <p>em contato o mais breve possível.</p>
+                                    <div id="divTitleDiamondSquare" className="col-sm">
+
+                                        <span>Preencha os campos abaixo e entraremos em contato o mais breve possível.</span>
+
+
                                     </div>
 
                                 </div>
                                 <div className="row">
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="Nome" idInput="firstStyle" />
                                     </div>
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="Telefone" idInput="firstStyle" />
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="E-mail" idInput="firstStyle" />
                                     </div>
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="Local" idInput="firstStyle" />
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="Data" idInput="firstStyle" />
                                     </div>
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="Hora" idInput="firstStyle" />
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="Tipo" idInput="firstStyle" typeButton="option" />
                                     </div>
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="Quantidade de Aulas" idInput="firstStyle" typeButton="option" />
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-sm">
-                                        <Input />
+                                        <Input labelText="Mensagem" idInput="firstStyle" />
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <button>Quero Agendar</button>
+                                <div id="divButtonCard" className="row">
+                                    <Button idButton="firstButton" />
                                 </div>
                             </section>
                         </div>

@@ -18,7 +18,7 @@ class Especialista extends React.Component {
                     <div className="col-9">
                         <div className="container">
                             <div className="row">
-                                <div id="divEspecialista" className="col">
+                                <div id="divEspecialista" className="col-sm">
                                     <div className="row">
                                         <span>Quando o assunto é aula de Tênis a <strong>MMoshini</strong> é</span>
                                     </div>
@@ -43,11 +43,11 @@ class Especialista extends React.Component {
                                         </span>
                                     </div>
                                 </div>
-                                <div className="col">
+                                <div className="col-sm">
                                     <img id="tenista1" src={tenista1}></img>
                                 </div>
-                                <div className="col">
-
+                                <div className="col-6">
+                                    <CardInput />
                                 </div>
                             </div>
                         </div>
@@ -65,4 +65,4 @@ class Especialista extends React.Component {
 
 export default Especialista;
 
-/*<CardInput />*/
+/* <img id="tenista1" src={tenista1}></img>*/

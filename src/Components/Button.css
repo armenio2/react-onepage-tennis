@@ -1,4 +1,11 @@
-#buttonComponent{
+button{
     margin: 20px;
     margin-bottom: 30px;
+}
+#firstButton{
+    width: 150px;
+    height: 33px;;
+    font-size: 120%;
+    border: 1px solid green;
+    font-weight: bold;
 }
