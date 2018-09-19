@@ -1,7 +1,7 @@
 import React from 'react';
 import CardWhatsApp from "./CardWhatsApp";
 import CardInput from "./CardInput";
-import tenista1 from "../../Images/tenista1.png"
+import tenista2 from "../../Images/tenista2.png"
 import "./Especialista.css";
 
 
@@ -44,7 +44,7 @@ class Especialista extends React.Component {
                                     </div>
                                 </div>
                                 <div className="col-sm">
-                                    <img id="tenista1" src={tenista1}></img>
+                                    <img id="tenista1" src={tenista2}></img>
                                 </div>
                                 <div className="col-6">
                                     <CardInput />

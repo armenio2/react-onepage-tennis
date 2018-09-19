@@ -2,6 +2,8 @@
     width: 200px;
     height: 200px;
     transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari 3-8 */
     background: rgb(255, 217, 0);
     border-radius: 10%;
     float: right;
@@ -15,6 +17,8 @@
 }
 #cardDiv section{
     transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
     margin-top: 28px;
     text-align: center;
 }
@@ -71,6 +75,8 @@
     margin-top: 220px;
     border: solid transparent;
     transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari 3-8 */
     border-radius: 10%;
     float: right;
     background: white;
@@ -82,6 +88,8 @@
 
 #inputCardDiv section{
     transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
     text-align: center;
     margin-top: 50px; 
 

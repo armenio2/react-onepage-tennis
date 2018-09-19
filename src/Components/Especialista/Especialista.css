@@ -1,9 +1,15 @@
 #tenista1{
     width: 600px;
-    margin-top: 68px;
-    z-index: 1;
+    margin-top: 0px;
+    margin-left: 50px;
+    z-index: 3;
     position: absolute;
-
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 #divEspecialista div:nth-child(1){
     text-align: left;
