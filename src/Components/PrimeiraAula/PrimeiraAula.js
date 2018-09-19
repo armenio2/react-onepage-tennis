@@ -43,6 +43,7 @@ class PrimeiraAula extends React.Component {
 
                     </div>
                 </div>
+
                 <div className="row">
                     <div className="col">
 
@@ -64,9 +65,10 @@ class PrimeiraAula extends React.Component {
                     <div className="col">
 
                     </div>
-                    <div  className="col-6">
+                    <div className="col-6">
+
                         <div className="row">
-                            <div  id="titlePrimeiraAula" className="col">
+                            <div id="titlePrimeiraAula" className="col">
                                 <span>AGENDE JÁ SUA</span>
                             </div>
                         </div>
@@ -76,8 +78,8 @@ class PrimeiraAula extends React.Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div  id="titlePrimeiraAula3" className="col">
-                            <span>100% GRATUITA!</span>
+                            <div id="titlePrimeiraAula3" className="col">
+                                <span>100% GRATUITA!</span>
                             </div>
                         </div>
                         <div className="row">
@@ -113,14 +115,25 @@ class PrimeiraAula extends React.Component {
                                 <Input />
                             </div>
                         </div>
-                        <div className="row">
-                            <button>Quero Agendar</button>
+                        <div id="btnAgendar" className="row">
+                            <div className="col">
+
+                            </div>
+                            <div className="col">
+                                <button >Quero Agendar</button>
+                            </div>
+                            <div className="col">
+
+                            </div>
+
                         </div>
+
                     </div>
                     <div className="col">
 
                     </div>
                 </div>
+
             </div>
 
         );

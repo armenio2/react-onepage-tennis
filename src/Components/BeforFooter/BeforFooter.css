@@ -1,0 +1,46 @@
+#beforFoot div:nth-child(1){
+    font-size: 140%;
+    color: grey;
+    margin-top: 60px;
+    text-align: left;
+}
+#beforFoot div:nth-child(2){
+    font-size: 300%;
+    color: orange;
+    margin-left: 25px;
+}
+#beforFoot div:nth-child(3){
+    margin-left: 25px;
+    color: grey;
+    font-size: 140%;
+    text-align: right;
+    float: right;
+
+}
+#divContatoBeforFooter{
+    font-size: 180%;
+    color: grey;
+    margin-top: 60px;
+}
+#divContatoBeforFooter img{
+    width: 35px;
+    height: 35px;
+}
+#divContatoBeforFooter img:first-of-type{
+    width: 25px;
+    height: 25px;
+}
+#divFuncionamento{
+    float:center;
+}
+#divFuncionamento span:first-of-type{
+    font-size: 80%;
+    color: grey;
+
+}
+#divFuncionamento span:last-of-type{
+    font-size: 100%;
+    color:green;
+    font-weight: bold;
+
+}

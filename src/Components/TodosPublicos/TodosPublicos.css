@@ -1,0 +1,52 @@
+#divGruposAulas div:nth-child(1){
+    font-size: 120%;
+    color: grey;
+    margin-top: 60px;
+}
+#divGruposAulas div:nth-child(2){
+    font-size: 300%;
+    color: orange;
+}
+#divGruposAulas div:nth-child(3){
+    margin-left: 25px;
+    color: grey;
+    font-size: 80%;
+    text-align: left;
+}
+#divGruposAulas div:nth-child(4){
+    margin-top: 25px;
+    margin-left: 25px;
+    color: grey;
+    font-size: 80%;
+    text-align: left;
+}
+#divPlanos div{
+    margin-top: 40px;
+        width: 200px;
+        margin-left: 25px;
+}
+#divPlanos span:first-child{
+    color:green;
+    font-size: 300%;
+}
+#divPlanos span:last-child{
+    color:grey;
+    margin-top: 40px;
+    font-size: 70%;
+}
+#circlePlano div{
+    width: 60px;
+    height: 60px;
+    margin: 40px;
+    margin-bottom: 0;
+    color: white;
+    background: orange;
+    border: solid;
+    border-radius: 100%;
+}
+#posPlano div{
+    width: 60px;
+    height: 60px;
+    margin: 40px;
+    margin-top:0;
+}

@@ -1,0 +1,22 @@
+#footerDiv{
+    background: rgb(98, 233, 98);
+    margin-top: 25px;
+    border-top: solid 10px rgb(213, 247, 162);
+    padding: 30px;
+
+}
+
+#footerIcon {
+    float: right;
+    text-align: right;
+}
+#footerText span{
+    text-align: right;
+    float: right;
+    font-size: 60%;
+    color: white;
+}
+#footer3Xceler span{
+    float:left;
+    text-align: left;
+}

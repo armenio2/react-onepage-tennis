@@ -14,6 +14,7 @@
     text-align: left;
     color:white;
     font-size: 120%;
+    margin-top: 80px;
 }
 #titlePrimeiraAula2{
     color: orange;
@@ -25,5 +26,11 @@
     font-size: 120%;
 }
 #courtDiv{
+
     background-image: url(../../Images/court.jpg);
+}
+#btnAgendar{
+    margin-top: 5px;
+    text-align: center;
+    float: center;
 }
