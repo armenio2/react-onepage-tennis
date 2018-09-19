@@ -1,6 +1,6 @@
 import React from 'react';
 import "./TodosPublicos.css";
-import CardMunhaqueira from "../PrimeiraAula/CardMunhaqueira";
+import CardMunhaqueira from "../CardMunhaqueira";
 import Button from "../Button";
 
 
@@ -44,10 +44,10 @@ class TodosPublicos extends React.Component {
                     </div>
                     <div className="col-8">
                         <div className="row">
-                            <CardMunhaqueira />
-                            <CardMunhaqueira />
-                            <CardMunhaqueira />
-                            <CardMunhaqueira />
+                            <CardMunhaqueira divIdCard="aulasCard" />
+                            <CardMunhaqueira divIdCard="aulasCard" />
+                            <CardMunhaqueira divIdCard="aulasCard" />
+                            <CardMunhaqueira divIdCard="aulasCard" />
                         </div>
                     </div>
                     <div className="col">

@@ -1,0 +1,26 @@
+#cardGeral div span:first-of-type{
+    color:grey;
+    font-size: 140%;
+    font-weight: bold;
+}
+#cardGeral div:last-of-type span{
+    color:grey;
+    font-size: 180%;
+    font-weight: bold
+}
+
+#divMunhequeiraCard{
+    width: 11rem;
+    margin: 20px;
+    font-size: 80%;
+}
+#divMunhequeiraCard img{
+    width: 100px;
+}
+#aulasCard{
+    width: 11rem;
+    margin: 20px;
+}
+#aulasCard img{
+    width: 100px;
+}

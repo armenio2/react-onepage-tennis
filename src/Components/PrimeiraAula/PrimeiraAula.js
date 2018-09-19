@@ -1,7 +1,7 @@
 import React from 'react';
 import "./PrimeiraAula.css";
 import playStay from "../../Images/playAndStay.png";
-import CardMunhaqueira from "./CardMunhaqueira";
+import CardMunhaqueira from "../CardMunhaqueira";
 import Input from "../Input";
 import Button from "../Button";
 
@@ -53,10 +53,10 @@ class PrimeiraAula extends React.Component {
                     </div>
                     <div className="col-8">
                         <div className="row">
-                            <CardMunhaqueira />
-                            <CardMunhaqueira />
-                            <CardMunhaqueira />
-                            <CardMunhaqueira />
+                            <CardMunhaqueira divIdCard="divMunhequeiraCard" />
+                            <CardMunhaqueira divIdCard="divMunhequeiraCard" />
+                            <CardMunhaqueira divIdCard="divMunhequeiraCard" />
+                            <CardMunhaqueira divIdCard="divMunhequeiraCard" />
                         </div>
 
                     </div>
