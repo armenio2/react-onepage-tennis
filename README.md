@@ -16,7 +16,7 @@ My first onepage, made in react to improve the knowledge.
 ## Getting Started
 
 ```
--git clone https://github.com/armenio2/React-onepage-tennis.git
+-git clone https://github.com/armenio2/react-onepage-tennis.git
 Install Node.js
 -npm install
 -npm start
