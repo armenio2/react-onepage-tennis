@@ -4,14 +4,9 @@ My first onepage, made in react to improve the knowledge.
 
 ![alt text](https://i.imgur.com/ik9yCWd.png)
 
-
-
 ![alt text](https://i.imgur.com/42andwc.png)
 
-
-
 ![alt text](https://i.imgur.com/zp8E9jQ.png)
-
 
 ## Getting Started
 
@@ -32,5 +27,3 @@ Install Node.js
 ## Contributing
 
 https://reactjs.org/
-
-
